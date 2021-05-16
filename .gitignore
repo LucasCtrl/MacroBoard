@@ -1,0 +1,5 @@
+# Ignore all CAD archives
+*.FCStd*
+
+# Don't ignore CAD file
+!macroboard_REV1.0.FCStd
