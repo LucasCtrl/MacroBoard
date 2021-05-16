@@ -27,5 +27,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
+*[Inspiration list](https://github.com/LucasCtrl/MacroBoard/blob/master/Inspirations)*
+
 Copyright © 2021 [LucasAlt](https://lucasalt.fr)<br />
 This project is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
