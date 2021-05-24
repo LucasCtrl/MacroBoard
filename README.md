@@ -3,6 +3,11 @@
 
 🚧 **This project is still in development!**
 
+## 📔 Notes
+- Layout made with [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
+- Wiring map made with [Keyboard Firmware Builder](https://kbfirmware.com/)
+- Testing with the [QMK configurator](https://config.qmk.fm/#/test)
+
 ## 👤 Author
 
 **LucasAlt**
@@ -11,6 +16,8 @@
 * GitHub: [@LucasCtrl](https://github.com/LucasCtrl)
 
 ## 🤝 Contributing
+
+*Be sure to checkout the [contribution guidelines](https://github.com/LucasCtrl/MacroBoard/blob/main/CONTRIBUTING.md)*
 
 1. Fork it (https://github.com/lucasctrl/macroboard/fork)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
@@ -27,7 +34,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-*[Inspiration list](https://github.com/LucasCtrl/MacroBoard/blob/master/Inspirations)*
+*[Inspiration list](https://github.com/LucasCtrl/MacroBoard/tree/main/Inspirations)*
 
 Copyright © 2021 [LucasAlt](https://lucasalt.fr)<br />
 This project is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
