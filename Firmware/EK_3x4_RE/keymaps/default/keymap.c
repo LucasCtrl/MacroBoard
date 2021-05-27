@@ -4,7 +4,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KEYMAP(
 		KC_MUTE, _______, _______, _______,
 		KC_MPRV, KC_MPLY, KC_MNXT, _______,
-		LCTL(LALT(LSFT(KC_F))), LCTL(LALT(LSFT(KC_G))), LCTL(LALT(LSFT(KC_H))), LCTL(LALT(LSFT(KC_M)))),
+		LCTL(LALT(KC_F)), LCTL(LALT(KC_G)), LCTL(LALT(KC_H)), LCTL(LALT(KC_M))),
 };
 
 void matrix_init_user(void) {
@@ -15,11 +15,9 @@ void encoder_update_user(uint8_t index, bool clockwise) {
   if (index == 0) {
     //  First encoder
     if (clockwise) {
-      register_code(KC_AUDIO_VOL_UP);
-      unregister_code(KC_AUDIO_VOL_UP);
+      tap_code(KC_AUDIO_VOL_UP);
     } else {
-      register_code(KC_AUDIO_VOL_DOWN);
-      unregister_code(KC_AUDIO_VOL_DOWN);
+      tap_code(KC_AUDIO_VOL_DOWN);
     }
   }
 
