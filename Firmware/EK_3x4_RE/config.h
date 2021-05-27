@@ -6,7 +6,7 @@
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    ElsassKabel
 #define PRODUCT         EK_3x4_RE
-#define DESCRIPTION     Macropad 3x4 with 2 rotary encoders
+#define DESCRIPTION     EK_3x4_RE
 
 /* key matrix size */
 #define MATRIX_ROWS 3
