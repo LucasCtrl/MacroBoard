@@ -4,7 +4,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KEYMAP(
 		KC_MUTE, _______, _______, _______,
 		KC_MPRV, KC_MPLY, KC_MNXT, _______,
-		LCTL(LALT(KC_F)), LCTL(LALT(KC_G)), LCTL(LALT(KC_H)), LCTL(LALT(KC_M))),
+		RSFT(KC_F), RSFT(KC_G), RSFT(KC_H), RSFT(KC_M)
+  ),
 };
 
 void matrix_init_user(void) {

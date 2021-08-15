@@ -1,6 +1,6 @@
 # MCU name
 MCU = atmega32u4
-BOOTLOADER = atmel-dfu
+BOOTLOADER = caterina
 
 # Processor frequency.
 #     This will define a symbol, F_CPU, in all source code files equal to the
